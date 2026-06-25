@@ -12,6 +12,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+           <button class="botao ativo">Cusos na Alura</button>
     font-family: 'Chakra Petch', sans-serif;
 }
 
@@ -60,6 +61,10 @@ body {
     display: block;
 }
 |
+.ativo {
+    background-color: var(--botao-ativo);
+    border-botton: 4px solid var(--verde);
+}
 @media screen and (min-width: 768px) {
     .ativo {
     .botoes {
