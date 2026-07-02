@@ -59,7 +59,11 @@ body {
 
 .botoes {
     display: block;
-}
+
+
+    .ativo{
+        backgraund-color: ver(--botao-ativo);
+    }
  @media screen and (min-width: 768px) {
     .botoes{
     display: flex;
